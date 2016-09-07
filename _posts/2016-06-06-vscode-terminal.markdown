@@ -11,7 +11,7 @@ I personally use PowerShell for all of my CLI needs in Windows, as it has a bett
 To do this, open up your user settings and add the following to your settings configuration...
 
 ```json
-"terminal.integrated.shell.windows": "\\windows\\system32\\WindowsPowerShell\\v1.0\\powershell.exe"
+"terminal.integrated.shell.windows": "C:\\windows\\sysnative\\WindowsPowerShell\\v1.0\\powershell.exe"
 ```
 
 Open up the integrated terminal and there it is!  PowerShell is now my integrated terminal in VS Code.
